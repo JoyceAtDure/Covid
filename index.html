@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HighCharts</title>
+  </head>
+  <body>
+      <!-- ************************navbar*************** -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">ZOHO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"  style="color: black;">Covid-19 Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"  style="color: black;">Contries</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"  style="color: black;">Covid-19 Resource</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"  style="color: black;">Fork This</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"  style="color: black;">About</a>
+                </li>
+                
+            </ul>
+        
+        </div>
+    </nav>
+
+    <!--************** Section 1**************** -->
+    <div>
+        <h1 class="main-title text-center bg-light mt-2 mb-2 p-2">India (COVID-19) Dashboard</h1>
+    </div>
+    <div class="row text-center">
+      <div class="col m-2" id="confirm">
+        <h5>Confirmed Cases</h5>
+        <div id="res1"></div>
+      </div>
+      <div class="col m-2" id="death">
+        <h5> Deaths</h5>
+        <div id="res2"></div>
+      </div>
+      <div class="col m-2" id="recovery">
+        <h5>Recovered</h5>
+        <div id="res3"></div>
+      </div>
+      <div class="col m-2" id="d-rate">
+        <h5>Death Rate</h5>
+        <div id="res4">1.30%</div>
+      </div>
+      <div class="col m-2" id="r-rate">
+        <h5>Recovery Rate</h5>
+        <div id="res5">92.1%</div>
+      </div>
+  
+    </div>
+    
+  <div class="row">
+     <div class="col">
+      <figure class="highcharts-figure">
+     
+        <!-- <div class="highcharts-description text-center">
+           Overall Active Cases vs Death vs Recovered in India
+        </div> -->
+        <div id="container-1"></div>
+      </figure>
+     </div>
+     <div class="col">
+          
+        <figure class="highcharts-figure">
+        
+          <!-- <div class="highcharts-description text-center">
+            India's Confirmed Cases Daily Trend
+          </div> -->
+          <div id="container-2"></div>
+        </figure>
+     </div>
+  </div>
+        
+    
+
+
+    <!-- <div class="p-2"  id="daily"></div> -->
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="main1.js"></script>
+  </body>
+</html>

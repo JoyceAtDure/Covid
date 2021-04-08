@@ -1,0 +1,42 @@
+https://jsfiddle.net/BlackLabel/fsvrmd3u/
+
+https://www.highcharts.com/forum/viewtopic.php?t=44428
+
+
+http://jsfiddle.net/7etj0fyr/ -for api through data
+
+https://medium.com/@priya_jain/visualizing-the-data-in-react-using-charts-c7e72dc7523b
+
+http://jsfiddle.net/gh/get/jquery/1.7.2/highcharts/highcharts/tree/master/samples/highcharts/data/csv/
+
+
+
+
+urls--
+
+
+
+
+
+https://codepen.io/samuellawrentz/pen/XYVyNR?editors=1010
+
+https://www.google.com/search?client=firefox-b-d&q=x-axia+range+as+months+of+the+year+in+highcharts
+
+
+
+diff
+https://www.highcharts.com/demo/parliament-chart
+
+
+
+axios
+.get('https://api.covid19api.com/country/india/status/confirmed?from=2020-01-30T00:00:00Z&to=2021-04-06T00:00:00Z', {
+  timeout: 5000
+})
+  .then(res => {
+    console.log(res.data.map(d => d.Cases));
+    document.getElementById('daily').innerHTML = `
+     ${res.data.map(d => d.Cases)}
+   
+  })
+.catch(err => console.error(err));
