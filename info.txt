@@ -42,3 +42,7 @@ axios
    
   })
 .catch(err => console.error(err));
+
+
+//scrollbar
+https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/chart/scrollable-plotarea
